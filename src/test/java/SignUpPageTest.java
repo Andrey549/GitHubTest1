@@ -3,7 +3,7 @@ import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeUnit;q
 
 public class SignUpPageTest {
     WebDriver driver;
@@ -18,15 +18,6 @@ public class SignUpPageTest {
         driver.manage().window().maximize();
         driver.get("https://github.com/join?source=header-home");
         signUpPage = new SignUpPage(driver);
-
-
-
-
-
-
-
-
-
 
 
     }
